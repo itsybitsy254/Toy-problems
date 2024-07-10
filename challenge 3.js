@@ -63,10 +63,20 @@ if(totalTaxbleIncome <= 5999){
 } else if(totalTaxbleIncome > 59999 && totalTaxbleIncome <= 69999){
     NHIF = 1300
     console.log('Total NHIF Deductions:',NHIF)
-} else if(totalTaxbleIncome > 69999){
+}else if(totalTaxbleIncome > 69999 && totalTaxbleIncome <= 79999){
     NHIF = 1400
     console.log('Total NHIF Deductions:',NHIF)
+}else if(totalTaxbleIncome > 79999 && totalTaxbleIncome <= 89999){
+    NHIF = 1500
+    console.log('Total NHIF Deductions:',NHIF)
+}else if(totalTaxbleIncome > 89999 && totalTaxbleIncome <= 99999){
+    NHIF = 1600
+    console.log('Total NHIF Deductions:',NHIF) 
+}else if(totalTaxbleIncome >= 100000){
+    NHIF = 1700
+    console.log('Total NHIF Deductions:',NHIF)
 }
+
 //NSSF DEDUCTIONS
     let NSSF;
     NSSF = 6/100 * bs;

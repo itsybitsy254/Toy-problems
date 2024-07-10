@@ -1,5 +1,5 @@
 # Toy-problems
-This is a Toy Problem Test. Administered by Moringa School. It encompasses three challenges that test the basics of JavaScript learnt in phase 1 module.
+This is a Toy Problem Test Assignment given by Moringa School. It encompasses three challenges that test the basics of JavaScript learnt in phase 1 module.
 
 Challenge 1: STUDENT GRADE GENERATOR 
 The "Student Grade Generator" is a software tool designed to automate and streamline the process of generating and managing student grades in an educational setting.
